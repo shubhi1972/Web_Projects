@@ -32,6 +32,19 @@ a{
     position: absolute;
     left: 10px;
     top: 10px;
+    /* mix-blend-mode: multiply; */
+}
+
+.signinbtn{
+    position: absolute;
+    right: 15px;
+    color: white;
+    background-color: red;
+    top: 20px;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .logo img{
@@ -92,20 +105,9 @@ h1{
 
 }
 
-.remember{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-
-}
-
-#rememberme{
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
 
 h5{
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
